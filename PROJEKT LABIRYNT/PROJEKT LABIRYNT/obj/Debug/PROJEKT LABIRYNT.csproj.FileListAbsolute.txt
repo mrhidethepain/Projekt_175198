@@ -1,0 +1,9 @@
+C:\Users\Aegom\source\repos\PROJEKT LABIRYNT\PROJEKT LABIRYNT\obj\Debug\PROJEKT LABIRYNT.csproj.AssemblyReference.cache
+C:\Users\Aegom\source\repos\PROJEKT LABIRYNT\PROJEKT LABIRYNT\obj\Debug\PROJEKT_LABIRYNT.Properties.Resources.resources
+C:\Users\Aegom\source\repos\PROJEKT LABIRYNT\PROJEKT LABIRYNT\obj\Debug\PROJEKT LABIRYNT.csproj.GenerateResource.cache
+C:\Users\Aegom\source\repos\PROJEKT LABIRYNT\PROJEKT LABIRYNT\obj\Debug\PROJEKT LABIRYNT.csproj.CoreCompileInputs.cache
+C:\Users\Aegom\source\repos\PROJEKT LABIRYNT\PROJEKT LABIRYNT\bin\Debug\PROJEKT LABIRYNT.exe.config
+C:\Users\Aegom\source\repos\PROJEKT LABIRYNT\PROJEKT LABIRYNT\bin\Debug\PROJEKT LABIRYNT.exe
+C:\Users\Aegom\source\repos\PROJEKT LABIRYNT\PROJEKT LABIRYNT\bin\Debug\PROJEKT LABIRYNT.pdb
+C:\Users\Aegom\source\repos\PROJEKT LABIRYNT\PROJEKT LABIRYNT\obj\Debug\PROJEKT LABIRYNT.exe
+C:\Users\Aegom\source\repos\PROJEKT LABIRYNT\PROJEKT LABIRYNT\obj\Debug\PROJEKT LABIRYNT.pdb
