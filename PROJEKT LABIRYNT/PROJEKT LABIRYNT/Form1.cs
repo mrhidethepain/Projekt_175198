@@ -229,7 +229,6 @@ namespace PROJEKT_LABIRYNT
         }
         private void Instructions()
         {
-            // Tworzymy etykietę z instrukcjami
             Label instructionsLabel = new Label();
             instructionsLabel.Text = "Sterowanie:\nW S A D - poruszanie się\nI - podpowiedź";
             instructionsLabel.Font = new Font("Arial", 12);
