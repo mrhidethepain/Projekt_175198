@@ -27,7 +27,7 @@ namespace PROJEKT_LABIRYNT
             if (node1 != null && node2 != null)
             {
                 edges.Add(new Edge(node1, node2, 1));
-                edges.Add(new Edge(node2, node1, 1)); // Graf nieskierowany
+                edges.Add(new Edge(node2, node1, 1));
             }
         }
 
@@ -43,7 +43,7 @@ namespace PROJEKT_LABIRYNT
             {
                 return neighbor;
             }
-            return null; // Brak sąsiada lub jest ściana
+            return null;
         }
 
         public List<NodeG> Dijkstra(NodeG start, NodeG goal)
@@ -54,7 +54,7 @@ namespace PROJEKT_LABIRYNT
 
             foreach (var node in nodes.Values)
             {
-                distances[node] = int.MaxValue; // Ustawiamy początkowo dla każdego węzła nieskończoność
+                distances[node] = int.MaxValue; 
                 previousNodes[node] = null;
                 nodesToVisit.Add(node);
             }
@@ -62,11 +62,10 @@ namespace PROJEKT_LABIRYNT
 
             while (nodesToVisit.Count > 0)
             {
-                // Wybierz węzeł z najmniejszą odległością
+
                 var currentNode = nodesToVisit.OrderBy(n => distances[n]).First();
                 nodesToVisit.Remove(currentNode);
 
-                // Sprawdzanie sąsiadów
                 foreach (var edge in edges.Where(e => e.Start == currentNode))
                 {
                     var neighbor = edge.End;
@@ -79,7 +78,6 @@ namespace PROJEKT_LABIRYNT
                 }
             }
 
-            // Rekonstrukcja najkrótszej drogi
             var path = new List<NodeG>();
             var current = goal;
             while (current != null)
